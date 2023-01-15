@@ -86,6 +86,17 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		223E869A2973F22A004E41CD /* CalcData */ = {
+			isa = PBXGroup;
+			children = (
+				22156BBB2912E4C100895551 /* Calc.swift */,
+				22156BC12926412800895551 /* CalcHealth.swift */,
+				22156BBF2924C16000895551 /* MoneyCalc.swift */,
+				225865D6290F021800635315 /* Date.swift */,
+			);
+			path = CalcData;
+			sourceTree = "<group>";
+		};
 		225865BC290EF16700635315 = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +116,13 @@
 		225865C7290EF16700635315 /* My choice */ = {
 			isa = PBXGroup;
 			children = (
+				223E869A2973F22A004E41CD /* CalcData */,
 				22156BB629102B2100895551 /* ViewModel */,
 				22156BB529102AF400895551 /* Model */,
 				22156BAB290FFFFA00895551 /* Views */,
 				225865C8290EF16700635315 /* My_choiceApp.swift */,
 				225865CC290EF16900635315 /* Assets.xcassets */,
 				225865CE290EF16900635315 /* Preview Content */,
-				225865D6290F021800635315 /* Date.swift */,
-				22156BBB2912E4C100895551 /* Calc.swift */,
-				22156BBF2924C16000895551 /* MoneyCalc.swift */,
-				22156BC12926412800895551 /* CalcHealth.swift */,
 			);
 			path = "My choice";
 			sourceTree = "<group>";

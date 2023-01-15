@@ -18,8 +18,6 @@ struct MainPage: View {
     
     var body: some View {
         NavigationView{
-            ZStack{
-                Color.gray.ignoresSafeArea(.all)
             VStack(alignment: .leading, spacing: 50){
                 if flag == true{
                     HStack{
@@ -40,7 +38,6 @@ struct MainPage: View {
                 }
             }
             .navigationTitle("Главная")
-            }
         }
         
         .navigationBarBackButtonHidden(true)

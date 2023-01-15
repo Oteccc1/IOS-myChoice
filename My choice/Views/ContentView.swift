@@ -13,15 +13,15 @@ struct ContentView: View {
         TabView {
             MainPage()
                 .tabItem {
-                    Label("Главная", systemImage: "1.circle")
+                    Label("Главная", systemImage: "deskclock")
                 }
             SavingMoney()
                 .tabItem {
-                    Label("Финансы", image: "MoneyIco").frame(height: 10)
+                    Label("Финансы", systemImage: "dollarsign.circle")
                 }
             SavingHealth()
                 .tabItem {
-                    Label("Здоровье", image: "HealthIco")
+                    Label("Здоровье", systemImage: "cross.case")
                 }
         }
     }

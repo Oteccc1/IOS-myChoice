@@ -24,10 +24,10 @@ struct GoalView: View {
             }
             VStack{
                 ProgressView(value: Float(calcMon[0] * (arrayDate[0] ?? 0)), total: Float(moneyStart1))
-                Text("На сколько вы приблилизись к цели")
+                Text("Насколько вы приблилизись к цели")
                 Text(String(calcMon[0] * (arrayDate[0] ?? 0))).padding()
                 Text("От")
-                Text(String(moneyStart ?? ""))
+                Text(String(moneyStart ?? "")).padding()
             }
         }
         else{

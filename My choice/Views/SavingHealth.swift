@@ -14,7 +14,7 @@ struct SavingHealth: View {
         NavigationView{
         VStack{
             ForEach(0..<parHealth.count){index in
-                Text(parHealth[index]).padding().frame(width: 370)
+                Text(parHealth[index]).padding()
                 
             }
             ProgressView(value: Float(arrayDate[0] ?? Int(0.0)), total: 360.0).padding()
